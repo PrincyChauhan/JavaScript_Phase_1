@@ -1,0 +1,23 @@
+<html>
+<body>
+
+<script>
+function display()
+{
+  var x=document.getElementById("base").value;
+  var y=document.getElementById("exp").value;
+  
+  document.getElementById("result").innerHTML=Math.pow(x,y);
+}
+</script>
+<form>
+Base: <input type="text" id="base"><br>
+Exponent: <input type="text" id="exp"> <br>
+<input type="button" onclick="display()" value="submit">
+</form>
+<p><span id="result"></span></p>
+
+</body>
+</html>
+
+ 
